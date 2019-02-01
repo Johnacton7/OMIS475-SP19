@@ -1,0 +1,20 @@
+body{
+background-color: black;
+color: #FFFFFF;  
+}
+
+nav{
+background-color: #CCCCCC;
+}
+navb{
+background-color: #CCCCCC;  
+}
+h1{
+color:#CCCCCC;
+font-family: "Times New Roman", Times;  
+}
+
+.news {
+color: red;
+font-family: italic;  
+}
