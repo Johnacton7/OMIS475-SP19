@@ -2,6 +2,7 @@ h1 {
     color: white;
     text-align: center;
     border: 3px solid black;
+    
 }
 body {
     background-color: grey;
@@ -15,4 +16,7 @@ ul {
     color: white;
     font-family: monospace;
     font-size: 25px;
+}
+img {
+    float: right;
 }
