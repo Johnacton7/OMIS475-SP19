@@ -1,0 +1,25 @@
+h1 {
+    color: white;
+    text-align: center;
+    border: solid;
+    border-color: black;
+    
+}
+body {
+    background-color: rgb(167, 73, 73);
+  }
+p {
+    Color: white;
+    font-family: monospace;
+    font-size: 20px 
+}
+ul {
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}

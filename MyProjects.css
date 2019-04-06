@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+
+
+.header {
+
+  color: rgb(132, 182, 230);
+  padding: 10px;
+  text-align: center;
+  font-size: 500px;
+  border: solid;
+  background-color: black;
+}
+table {
+  border-collapse: collapse;
+}
+
+
+.column {
+  border:solid;
+  border-color:black;
+  float: left;
+  width: 33.33%;
+  padding: 100px;
+  height: 500x; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}

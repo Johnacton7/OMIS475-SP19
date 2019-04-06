@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body{background-color: green}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px; 
+  color: white;
+  border: solid;
+  border-color: black;
+  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1{text-align: center;
+    color:black;
+    border: solid;
+    background-color: white;}
+
+
+.form{float:right;
+padding-left: 70px;
+border:solid;
+border-color: black;
+height: 500px;
+width: 50%;
+color:white;}
+
+
+
+
+</style>
+</head>
+<body>    
+    <link rel="stylesheet" href="WebPresence.css">
+    
+
+    <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-blue w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+        <a href="Home.html" class="w3-bar-item w3-button w3-hide-small w3-hover-text-green">Home</a>
+        <a href="aboutme.html" class="w3-bar-item w3-button w3-hide-small w3-hover-text-green">About Me</a>
+        <a href="Education.html" class="w3-bar-item w3-button w3-hide-small w3-hover-text-green">Education</a>
+        <a href="resume.html" class="w3-bar-item w3-button w3-hide-small w3-hover-text-green">Resume</a>
+        <a href="MyProjects.html" class="w3-bar-item w3-button w3-hide-small w3-hover-text-green">My Projects</a>
+        <a href="MyHobbies.html" class="w3-bar-item w3-button w3-hide-small w3-hover-text-green">My Hobbies</a>
+        <a href="Goals.html" class="w3-bar-item w3-button w3-hide-small w3-hover-text-green">My Goals</a>
+        <a href="CommunityService.html" class="w3-bar-item w3-button w3-hide-small w3-hover-text-green">Community Service</a>
+        <a href="ContactMe.html" class="w3-bar-item w3-button w3-hide-small w3-hover-text-green">Contact Me</a>
+      </div>
+    </div>
+<br><br>
+
+
+
+<h1>My Contact Information</h1>
+<br><br>
+
+<div class="row">
+        <div class="column">
+          <h2><b>Contact Me</b></h2>
+          <br>
+          <p>If you would like to contact me please use the methods below!</p>
+          <br><br>
+          Email: <a href="mailto:Johnacton68@gmail.com">johnacton68@gmail.com</a>
+          <br><br> Phone Number: 630-202-6188
+          <br><br> Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/johnathon-acton-2b2b0011a/"> John's LinkedIn Profile</a>
+          </div>
+        <div class="form">
+          <p>If you would like for me to Contact you please fill out the form below!</p>
+        
+      
+
+        <br>
+        <form action="/action_page.php">
+            <div class="Form">
+        <p2>First name:<br>
+        <input type="text" name="firstname">
+        <br><br>
+        Last name:<br>
+        <input type="text color:white" name="lastname">
+        
+        <br><br>
+        Conact Information:<br>
+        <textarea name="comments" id="comments" cols="40" rows="4" maxlength="1600" required="required"> Enter your information here </textarea>
+        </p2><br><br>
+        <input type="submit" value="Submit">
+        </form> 
+      
+        </div></div>
+   
+      
+      </body>
+      </html>
